@@ -1,0 +1,859 @@
+
+/* 
+starting Defold css 
+*/
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+html,body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+section{
+    padding: 7rem 9%;
+}
+
+/* :root{
+
+} */
+
+/* navbar hero section start */
+
+.navbar_hero_section{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.507) url(image/hero-image-2.jpg);
+    background-blend-mode: darken;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar_hero_section .header header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+}
+
+.navbar_hero_section .header header .logo{
+    font-size: 3rem;
+    color: white;
+}
+
+.navbar_hero_section .header header .logo i{
+    color: rgb(232,37,116);
+}
+.navbar_hero_section .navbar  {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.navbar_hero_section .navbar nav ul {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 3rem;
+    position: relative;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navbar_hero_section .navbar nav ul a{
+    border-bottom: 3px solid transparent;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    transition: all ease 0.1s;
+}
+
+.navbar_hero_section .navbar nav ul a:hover{
+    border-bottom: 3px solid rgb(232,37,116);
+}
+
+
+.navbar_hero_section .content{
+    margin-top: 20rem;
+}
+
+
+.navbar_hero_section .content h2{
+    color: rgb(133, 161, 170);
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.navbar_hero_section .content h1{
+    color: rgb(255, 255, 255);
+    font-size: 6.5rem;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 8.5rem;
+}
+
+
+.navbar_hero_section .content h1 span{
+    color: rgb(232,37,116);
+}
+
+.navbar_hero_section .buttone .btn{
+    cursor: pointer;
+    border:none ;
+    outline: none;
+    color: white;
+    background: transparent;
+    padding: 5px 10px;
+    font-size: 2.5rem;
+    border-radius: 5px;
+    margin-left: 5.5rem;
+    background: rgb(232,37,116);
+}
+
+.navbar_hero_section .buttone .btn:hover {
+    background:rgba(196, 59, 112, 0.911);
+}
+
+
+.navbar_hero_section  .check_out{
+    width: 100%;
+    height: 15%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: white;
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.308);
+    margin-top: 15rem;
+    position: relative;
+    transform: translateY(10.5rem);
+    
+   
+   
+}
+.navbar_hero_section  .check_out .check_icon{
+    display: flex;
+
+}
+
+.navbar_hero_section  .check_out i{
+    font-size: 2.5rem;
+    line-height: 6rem;
+    color: #e82574;
+    
+}
+
+.navbar_hero_section  .check_out .check_icon p{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 1rem;
+}
+
+.navbar_hero_section  .check_out .check_icon p span{
+    font-size: 2rem;
+    color: rgb(120,113,155);
+}
+
+.navbar_hero_section  .check_out  a{
+    cursor: pointer;
+    padding: 15px 10px;
+    background-color: #e82574;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.navbar_hero_section  .check_out  a:hover{
+    background-color:rgb(163, 31, 84) ;
+}
+
+
+/* 
+About us Sectione stat
+*/
+.about_us{
+    height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.about_us .image img{
+    width: 100%;
+    height: 100%;
+    padding: 10rem 9%;
+}
+
+.about_us .content{
+    padding: 10rem 9%;
+}
+
+.about_us .content h1{
+    font-size: 2.5rem;
+    line-height: 5rem;
+    font-weight: 700;
+    color: rgb(47,46,45);
+}
+
+.about_us .content h2{
+    font-size: 4.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.about_us .content p{
+    font-size: 2.5rem;
+    color: rgb(166,161,158);
+    margin-bottom: 7rem;
+}
+
+.about_us .content a{
+    font-size: 2.5rem;
+    padding: 10px 10px;
+    background-color:rgb(232,37,116) ;
+    color:white;
+    line-height: 10px;
+    border-radius: 50px;
+    transition: all ease 0.5s;
+}
+
+.about_us .content a:hover{
+    background-color:rgb(163, 31, 84) ;
+}
+
+.about_us .content span{
+    background-color:rgb(232,37,116) ;
+    width: 2.5rem;
+    height: 1rem;
+}
+
+/* 
+***********Room CardSection Start************
+*/
+.room_card {
+    width: 100%;
+    height: 100%;
+}
+.room_card .content h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.room_card .content h1{
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+
+.room_card .content .line{
+    width: 122px;
+    height: 5px;
+    background: #e82574;
+    margin-left: 25.5rem;
+    transform: translateY(-3.9rem);
+}
+
+.room_card .Box_card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+}
+
+.room_card .Box_card .card{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.308);
+    margin-top: 3.5rem;
+}
+
+.room_card .Box_card .card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.room_card .Box_card .card .image a i{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    width: 40px;
+    height: 40px;
+    background: #f0eeef;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+.room_card .Box_card .card{
+    position: relative;
+    margin-right: 1rem;
+    
+}
+.room_card .Box_card .card .icon{
+    position: absolute;
+    bottom: 26rem;
+    right: 1rem;
+}
+
+.room_card .Box_card .card .image .love{
+    color: rgb(244,114,182);
+}
+
+.room_card .Box_card .card .image .color{
+    color: #c084fc;
+}
+
+.room_card .Box_card .card .image .shiled{
+    color: rgb(96,165,250);
+}
+.room_card .Box_card .card  .content {
+    padding: 2rem;
+}
+.room_card .Box_card .card  .content h1 {
+    font-size: 2.3rem;
+    line-height: 3.5rem;
+    color: rgb(80,78,77);
+}
+
+.room_card .Box_card .card .content h2 {
+    font-size: 2rem;
+    color: rgb(130,124,119);
+}
+
+.room_card .Box_card .card .content h2 span{
+    color: rgb(36, 35, 34);
+}
+
+.room_card .Box_card .card .content a{
+    padding: 10px;
+    background: #e82574;
+    color: white;
+    font-size: 2.5rem;
+    border-radius: 5px;
+}
+
+.room_card .Box_card .card .content a:hover{
+    background: #9b0b44;
+}
+
+/* 
+**********Services Section Start**********
+*/
+
+.services{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.295) url(image/recpsation_image_backGround.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 0rem 9%;
+}
+
+.services .Services_box{
+    width: 50%;
+    height: 100%;
+    background: white;
+    padding: 2.5rem;
+}
+
+.services .Services_box h1{
+    font-size: 2.5rem;
+}
+
+.services .Services_box .line{
+    width: 100px;
+    height: 3px;
+    background: #e82574;
+    margin-left: 13.5rem;
+    transform: translateY(-1.5rem);
+}
+
+.services .Services_box h2{
+    font-size: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.services .Services_box h3{
+    margin-left: 6.5rem;
+    font-size: 2.5rem;
+    transform: translateY(-5.5rem);
+}
+
+.services .Services_box .icon {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+}
+
+.services .Services_box .icon a i{
+    font-size: 3rem;
+    width: 40px;
+    height: 40px;
+    background-color:#f0eeef ;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.services .Services_box .icon .color_1{
+    color: #60a5fa;
+}
+
+.services .Services_box .icon .color_2{
+    color: rgb(244,114,182);
+}
+
+.services .Services_box .icon .color_3{
+    color: #c48bfc;
+}
+
+.services .Services_box .icon .color_4{
+    color: rgb(251,118,137);
+}
+
+/* 
+**********Claient Number Section Start**********
+*/
+
+.claint_number{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.claint_number .number_box{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.308);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.claint_number .number_box .claient{
+    padding: 2.5rem 0rem;
+}
+.claint_number .number_box .claient h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0c0a09;
+}
+
+.claint_number .number_box .claient h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #a8a5a0;
+}
+
+/* 
+***********Explore Section Start***********
+*/
+
+.explore{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.explore h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.explore h2{
+    font-size: 5rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.explore .line{
+    width: 5rem;
+    height: 3px;
+    background: #e82574;
+    position: absolute;
+    right: 40%;
+    top: 35%;
+}
+
+/*
+*****hotel menu Start***** 
+ */
+.hotel_menu{
+    background: rgba(0, 0, 0, 0.295) url(image/froute_image.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hotel_menu .menu_card{
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    padding: 2.5rem;
+}
+
+.hotel_menu .menu_card h1{
+    font-size: 2rem;
+    color: #85817a;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.hotel_menu .menu_card h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+}
+
+.hotel_menu .menu_card a{
+    padding: 10px;
+    border: 2px solid #e82574;
+    font-size: 2rem;
+    color: #e82574;
+    transition: all ease 0.6s;
+    border-radius: 5px;
+}
+
+.hotel_menu .menu_card a:hover{
+    background-color: #e82574;
+    color: white;
+}
+
+/* 
+********Footer Section Start*********
+*/
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background: #0c0a09;
+}
+
+.footer footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+}
+
+.footer footer .Short_enformatione i {
+    font-size: 2.5rem;
+    color: #e82574;
+}
+
+.footer footer .Short_enformatione h1{
+    font-size: 2.5rem;  
+    color: white;  
+}
+
+.footer footer .Short_enformatione h2{
+    font-size: 1.5rem;
+    color: rgb(101, 107, 106);
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.footer footer .Short_enformatione a{
+    padding: 10px;
+    background: #e82574;
+    color: white;
+    font-size: 2.5rem;
+    border-radius: 5px;
+}
+
+.footer footer .quick_linke{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+}
+
+.footer footer .quick_linke a{
+    color: rgb(101, 107, 106);
+    line-height: 3.5rem;
+}
+
+.footer footer .quick_linke a:hover{
+    color: white;
+}
+
+.footer footer .quick_linke h1{
+    color: rgb(255, 255, 255);
+    line-height: 3.5rem;
+    font-size: 2rem;
+}
+
+.footer footer .our_services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+}
+
+.footer footer .our_services a{
+    color: rgb(101, 107, 106);
+    line-height: 3.5rem;
+}
+
+.footer footer .our_services a:hover{
+    color: white;
+}
+
+.footer footer .our_services h1{
+    color: rgb(255, 255, 255);
+    line-height: 3.5rem;
+    font-size: 2rem;
+}
+
+
+.footer footer .contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+}
+
+.footer footer .contact h6{
+    color: rgb(101, 107, 106);
+    line-height: 1rem;
+    cursor: pointer;
+    padding-bottom: 2.5rem;
+}
+
+.footer footer .contact h6:hover{
+    color: white;
+}
+
+.footer footer .contact h1{
+    color: rgb(255, 255, 255);
+    line-height: 3.5rem;
+    font-size: 2rem;
+}
+
+.footer footer .contact a i{
+    width: 40px;
+    height: 40px;
+    background: #e70978bb;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    transition: all ease 0.9s;
+    border: 2px solid #e82574;
+}
+
+.footer footer .contact a i:hover{
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+*****************Responsive Start For Tabe*****************
+*/
+
+@media(max-width: 768px){
+    .navbar_hero_section .navbar{
+        display: none;
+    }
+
+    .navbar_hero_section .header header{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        padding-left: 5rem;
+    }
+
+    .navbar_hero_section  .check_out{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .about_us{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .about_us .content a{
+        margin-left: 18.5rem;
+    }
+
+    .about_us .content{
+        padding: 2rem 9%;
+    }  
+
+    .room_card .content h2{
+        font-size: 2rem;
+    }
+    
+    .room_card .content h1{
+        font-size: 4.5rem;
+    }
+
+    .room_card .content .line{
+        margin-left: 19rem;
+        transform: translateY(-3.5rem);
+    }
+
+    .room_card .Box_card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+
+    .services .Services_box{
+        width: 100%;
+    }
+
+    .claint_number .number_box {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+        }
+
+    .claint_number .number_box :nth-child(3){
+        text-align: center;
+        /* transform: translateX(13rem); */
+    }
+
+    .explore .line{
+        right: 33%;
+        top: 35%;
+    }
+
+    .hotel_menu .menu_card{
+        width: 100%;
+    }
+
+    .footer footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+    }
+
+
+
+
+}
+
+/* 
+*****************Responsive Start For Mobile*****************
+*/
+
+@media(max-width: 568px){
+    .navbar_hero_section .navbar{
+        display: none;
+    }
+
+    .navbar_hero_section .header header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-between;
+        padding-left: 15rem;
+    }
+    .navbar_hero_section .buttone .btn{
+        display: none;
+    }
+
+    .navbar_hero_section .content h1{
+        font-size: 5rem;
+    }
+
+    .navbar_hero_section  .check_out{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    .about_us{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .about_us .content a{
+        margin-left: 8.5rem;
+    }
+
+    .about_us .content{
+        padding: 2rem 9%;
+    }   
+
+    .room_card .content h2{
+        font-size: 2rem;
+    }
+    
+    .room_card .content h1{
+        font-size: 4.5rem;
+    }
+
+    .services .Services_box{
+        width: 100%;
+    }
+
+   .claint_number .number_box{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+
+    
+   .explore .line{
+        right: 25%;
+        top: 35%;
+    }
+
+
+    .hotel_menu .menu_card{
+        width: 100%;
+    }
+
+    .footer footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+
+
+
+
+}
+
+
+
